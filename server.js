@@ -44,6 +44,7 @@ app.delete('/tasks/:id', async (req, res) => {
   res.sendStatus(204);
 });
 
+const PORT = process.env.PORT || 3001;
 app.listen(3001, () => {
   console.log('Servidor rodando na porta 3001');
 });
