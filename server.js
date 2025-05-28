@@ -6,6 +6,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('API online!');
+});
+
 // Listar tarefas
 app.get('/tasks', async (req, res) => {
   const result = await pool.query('SELECT * FROM tasks ORDER BY id DESC');
