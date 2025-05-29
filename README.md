@@ -63,15 +63,15 @@ Projeto para fins de estudo, implementando uma aplicação To-do List com front-
 
 ## **Principais rotas da API**
 
-- GET /tasks para listar todas as tarefas.
-- POST /tasks para adicionar uma nova tarefa:
+- GET `/tasks` para listar todas as tarefas.
+- POST `/tasks` para adicionar uma nova tarefa:
 ```bash
 { "description": "Nova tarefa" }
 ```
 
-- PUT /tasks/:id para marcar/desmarcar tarefa como feita:
+- PUT `/tasks/:id` para marcar/desmarcar tarefa como feita:
 ```bash
 { "done": true }
 ```
 
-- DELETE /tasks/:id para excluir uma tarefa.
+- DELETE `/tasks/:id` para excluir uma tarefa.
