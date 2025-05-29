@@ -61,6 +61,8 @@ Projeto para fins de estudo, implementando uma aplicação To-do List com front-
     ```
 6. **Inicie o servidor: acesse a pasta frontend/ e abra o index.html no navegador**
 
+---
+
 ## **Principais rotas da API**
 
 - GET `/tasks` para listar todas as tarefas.
