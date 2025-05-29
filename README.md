@@ -59,7 +59,7 @@ Projeto para fins de estudo, implementando uma aplicação To-do List com front-
     ```bash
     npm run dev
     ```
-6. **Inicie o servidor, acesse a pasta frontend/ e abra o index.html no navegador**
+6. **Inicie o servidor: acesse a pasta frontend/ e abra o index.html no navegador**
 
 ## **Principais rotas da API**
 
